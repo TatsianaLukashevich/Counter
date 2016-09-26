@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.tatyana.counterandroidst.MainActivity">
+
+    <item
+        android:id="@+id/action_add"
+        android:orderInCategory="1"
+        android:onClick="showAdd_Activity"
+        android:title="@string/action_add"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_timer"
+        android:orderInCategory="2"
+        android:title="@string/action_timer"
+        android:onClick="showTimer_Activity"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_new_date"
+        android:orderInCategory="3"
+        android:onClick="deleteTime"
+        android:title="@string/action_new_date"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_replace_money"
+        android:orderInCategory="4"
+        android:onClick="showReplace_money_Activity"
+        android:title="@string/action_replace_money"
+        app:showAsAction="never" />
+
+
+
+</menu>

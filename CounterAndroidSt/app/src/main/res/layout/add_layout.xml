@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="386dp"
+        android:layout_height="wrap_content"
+        android:text="Counter"
+        android:textSize="30dip"
+        android:textColor="#FFFFFF"
+        android:background="?attr/colorPrimary"
+        android:id="@+id/label_counter"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+
+        android:layout_width="386dp"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textSize="30dip"
+        android:textColor="#FFFFFF"
+        android:background="?attr/colorPrimary"
+        android:id="@+id/button_submit_addlayout"
+        android:layout_gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="time"
+        android:ems="10"
+        android:id="@+id/edit_start_work"
+        android:layout_below="@+id/text_start_work"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="time"
+        android:ems="10"
+        android:id="@+id/edit_stop_work"
+        android:layout_below="@+id/text_stop_work"
+        android:layout_alignLeft="@+id/edit_start_work"
+        android:layout_alignStart="@+id/edit_start_work" />
+       " />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start work"
+        android:textSize="25dp"
+        android:id="@+id/text_start_work"
+        android:layout_below="@+id/information"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop work"
+        android:textSize="25dp"
+        android:id="@+id/text_stop_work"
+        android:layout_below="@+id/edit_start_work"
+        android:layout_alignLeft="@+id/text_start_work"
+        android:layout_alignStart="@+id/text_start_work"
+        android:layout_marginTop="35dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please enter your time in format hh:mm or hhmm"
+        android:textSize="25dp"
+        android:id="@+id/information"
+        android:layout_below="@+id/label_counter"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
